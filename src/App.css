@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 50px 0px;
 }
 
 .App-logo {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.jobContent::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0) 100%);
 }
